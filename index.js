@@ -21,9 +21,9 @@ app.post('/bfhl', (req, res) => {
     try {
         const data = req.body.data;
 
-        const userId = "john_doe_17091999";
-        const email = "john@xyz.com";
-        const rollNumber = "ABCD123";
+        const userId = "ritika_jhanwar_10032003";
+        const email = "ritika@xyz.com";
+        const rollNumber = "21BCE1035";
 
         const { numbers, alphabets, highestLowercaseAlphabet } = processData(data);
 
